@@ -36,14 +36,14 @@ python arima.py
 
 RKNN모델은 hybrid ARIMA-LSTM모델로 두 모델을 합쳐 작성했습니다.
 ```
-    cd RKNN
-    python run.py
+cd RKNN
+python run.py
 ```
 
 rknn을 변환하는 코드입니다.
 ```
-    cd RKNN
-    python convert.py
+cd RKNN
+python convert.py
 ```
 
 결과
