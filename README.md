@@ -12,6 +12,7 @@ ARIMA모델은 장기간의 SMP평균을 입력으로 사용합니다.<br>
 둘의 평균을 구해, hybrid ARIMA-LSTM 모델로 미래의 SMP 평균값을 예측합니다.
 
 <br>
+
 실행 환경
 -
 - Python 3.5.2
@@ -23,12 +24,14 @@ ARIMA모델은 장기간의 SMP평균을 입력으로 사용합니다.<br>
 - sklearn
 
 <br>
+
 파일 설명
 -
 - RKNN : rknn 모델로 구동
 - Tensorflow : tensorflow모델로 구동
 
 <br>
+
 코드 실행
 -
 Tensorflow모델은 각각 LSTM, arima 모델을 따로 작성했습니다.
@@ -52,6 +55,7 @@ cd RKNN
 python convert.py
 ```
 <br>
+
 결과
 -
 hybrid ARIMA-LSTM모델의 예측값과 실제값을 비교한 그래프입니다.
