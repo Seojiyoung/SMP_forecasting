@@ -49,6 +49,7 @@ cd RKNN
 python run.py
 ```
 <br>
+
 rknn을 변환하는 코드입니다.
 ```
 cd RKNN
@@ -59,6 +60,7 @@ python convert.py
 결과
 -
 hybrid ARIMA-LSTM모델의 예측값과 실제값을 비교한 그래프입니다.
+<br>
 <img src="/RKNN/output(hybrid2).png" width="50%", height="50%">
 <br>
 빨간선: 예측값, 파란선: 실제값
