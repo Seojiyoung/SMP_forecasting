@@ -5,6 +5,7 @@ SMP란 System Margin Price의 줄임말로,
 <br>
 데이터셋은[DACON](https://dacon.io/competitions/official/235606/overview/)의 '공공 데이터 활용 전력수요 및 SMP 예측 AI 경진대회'에서 다운 받아 재가공했습니다.
 <br>
+
 LSTM모델은 28일간의 SMP(최댓값, 최솟값, 평균), weather(온도 최댓값&최솟값, 습도 최댓값&최솟값)을 속성으로 사용합니다.<br>
 ARIMA모델은 장기간의 SMP평균을 입력으로 사용합니다.<br>
 둘의 평균을 구해, hybrid ARIMA-LSTM 모델로 미래의 SMP 평균값을 예측합니다.
