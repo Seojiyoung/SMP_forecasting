@@ -7,9 +7,9 @@ SMP란 System Margin Price의 줄임말로,
 [DACON](https://dacon.io/competitions/official/235606/overview/)
 <br>
 <br>
-**LSTM모델**은 28일간의 SMP(최댓값, 최솟값, 평균), weather(온도 최댓값&최솟값, 습도 최댓값&최솟값)을 속성으로 사용합니다.<br>
-**ARIMA모델**은 장기간의 SMP평균을 입력으로 사용합니다.<br>
-둘의 평균을 구해, **hybrid ARIMA-LSTM 모델**로 미래의 SMP 평균값을 예측합니다.
+LSTM모델은 28일간의 SMP(최댓값, 최솟값, 평균), weather(온도 최댓값&최솟값, 습도 최댓값&최솟값)을 속성으로 사용합니다.<br>
+ARIMA모델은 장기간의 SMP평균을 입력으로 사용합니다.<br>
+둘의 평균을 구해, hybrid ARIMA-LSTM 모델로 미래의 SMP 평균값을 예측합니다.
 
 <br>
 
@@ -59,15 +59,22 @@ python convert.py
 
 결과
 -
-**hybrid ARIMA-LSTM모델의 예측값과 실제값을 비교한 그래프입니다.**
+hybrid ARIMA-LSTM모델의 예측값과 실제값을 비교한 그래프입니다.
 <br>
 <img src="/RKNN/output(hybrid2).png" width="50%", height="50%">
 <br>
-<span style="color:red">빨간선:</span> 예측값, 파란선: 실제값
+
+- 빨간선: 예측값
+- 파란선: 실제값
+
 <br>
 
-**LSTM, ARIMA, hybrid ARIMA-LSTM 모델의 예측값과 실제값을 비교한 그래프입니다.**
+LSTM, ARIMA, hybrid ARIMA-LSTM 모델의 예측값과 실제값을 비교한 그래프입니다.
 <img src="/RKNN/output(hybrid).png" width="50%", height="50%">
 <br>
-빨간선: LSTM, 초록선: ARIMA, 노란선: hybrid ARIMA-LSTM, 파란선: 실제값
+
+- 빨간선: LSTM
+- 초록선: ARIMA
+- 노란선: hybrid ARIMA-LSTM
+- 파란선: 실제값
 
