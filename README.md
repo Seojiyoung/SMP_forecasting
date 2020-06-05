@@ -27,15 +27,18 @@ ARIMA모델은 장기간의 SMP평균을 입력으로 사용합니다.
 코드 실행
 -
 Tensorflow모델은 각각 LSTM, arima 모델을 따로 작성했습니다.
+<br>
     cd Tensorflow
     python LSTM.py
     python arima.py
 
 RKNN모델은 hybrid ARIMA-LSTM모델로 두 모델을 합쳐 작성했습니다.
+<br>
     cd RKNN
     python run.py
 
 rknn을 변환하는 코드입니다.
+<br>
     cd RKNN
     python convert.py
 
