@@ -3,8 +3,8 @@ SMP란 System Margin Price의 줄임말로,
 전기발전사업자로부터 생산된 전기를 한국전력이 구매할 때 설정된 가격입니다.
 <br>
 <br>
-데이터셋은DACON의 '공공 데이터 활용 전력수요 및 SMP 예측 AI 경진대회'에서 다운 받아 재가공했습니다.
-[DACON](https://dacon.io/competitions/official/235606/overview/)
+데이터셋은[DACON](https://dacon.io/competitions/official/235606/overview/)의 '공공 데이터 활용 전력수요 및 SMP 예측 AI 경진대회'에서 다운 받아 재가공했습니다.
+
 <br>
 <br>
 LSTM모델은 28일간의 SMP(최댓값, 최솟값, 평균), weather(온도 최댓값&최솟값, 습도 최댓값&최솟값)을 속성으로 사용합니다.<br>
