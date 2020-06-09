@@ -69,7 +69,7 @@ hybrid ARIMA-LSTM모델의 예측값과 실제값을 비교한 그래프입니�
 <br>
 
 LSTM, ARIMA, hybrid ARIMA-LSTM 모델의 예측값과 실제값을 비교한 그래프입니다.
-<img src="./RKNN/output(hybrid).png" width="50%", height="50%">
+![예측그래프2](./RKNN/output(hybrid).png)
 <br>
 
 - 빨간선: LSTM
