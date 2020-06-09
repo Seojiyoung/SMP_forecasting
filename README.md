@@ -60,7 +60,7 @@ python convert.py
 -
 hybrid ARIMA-LSTM모델의 예측값과 실제값을 비교한 그래프입니다.
 <br>
-<img src="/RKNN/output(hybrid2).png" width="50%", height="50%">
+<img src="./RKNN/output(hybrid2).png" width="50%", height="50%">
 <br>
 
 - 빨간선: 예측값
@@ -69,7 +69,7 @@ hybrid ARIMA-LSTM모델의 예측값과 실제값을 비교한 그래프입니�
 <br>
 
 LSTM, ARIMA, hybrid ARIMA-LSTM 모델의 예측값과 실제값을 비교한 그래프입니다.
-<img src="/RKNN/output(hybrid).png" width="50%", height="50%">
+<img src="./RKNN/output(hybrid).png" width="50%", height="50%">
 <br>
 
 - 빨간선: LSTM
